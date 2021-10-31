@@ -248,19 +248,27 @@ body {
 .cog_informationbox, .caravel_informationbox,
 .galley_informationbox, .steam_informationbox,
 .present_informationbox{
-    width: 40%;
+    width: 50%;
     position: absolute;
-    padding: 20px;
-    border-radius: 30px;
-    border: 2px solid;
+    padding: 30px;
+    padding-left: 110px;
+    padding-right: 50px;
+    border-radius: 50px;
     top: 5%;
     transform: translateY(-100px);
-    background: url(paper8.png);
+    background: url(paper10.png);
     transition: 1s;
     opacity: 0;
     z-index: -10;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
 }
-
+.texthead { color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 60px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; }
 .detail{
     font-size: large;
 }
