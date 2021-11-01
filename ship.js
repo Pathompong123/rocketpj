@@ -15,7 +15,6 @@ let effect4 = "";
 let effect5 = "";
 let effect6 = "";
 let effects = [];
-
 function resetPage(){
   pageCount = 0;
   let nextBtn = document.getElementById("nextButton");
